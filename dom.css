@@ -1,0 +1,24 @@
+#GradStyle{
+    background-image: linear-gradient(to top, rgb(36, 4, 73),rgb(233, 248, 166));
+    display: flex;
+}
+.fdset{
+    width:350px;
+    height:233px;
+    margin-left: 35%;
+    margin-top: 15%;
+    border: 2px solid rgb(238, 227, 222);
+    border-radius: 13px;
+}
+.borbgc{
+    border-bottom: 2px ridge black;
+    background-color: aliceblue;
+    padding: 5px;
+    padding-top: 10px;
+    width: 233px;
+    text-align: center;
+    font-weight:800px;
+}
+h3{
+    font-style: italic;
+}
