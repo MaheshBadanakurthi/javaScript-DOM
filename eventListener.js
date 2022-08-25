@@ -1,5 +1,5 @@
 document.getElementById("toChangeHead").style.backgroundColor="navy";
-document.getElementById("eventFunction").addEventListener("click", blockAChange);
+document.getElementById("eventFunction").addEventListener("dblclick", blockAChange);
 function blockAChange(){
     document.getElementById("blockA").style.backgroundColor="green";
     document.getElementById("blockA").style.color="white";
@@ -22,4 +22,8 @@ function DateCome(){
 
 
 }
+document.getElementById("eventFunction").addEventListener('click',function(){
+    document.getElementById('blockD').style.color='green';
+    document.getElementById('blockD').style.backgroundImage='linearGradient(to left,red,yellow)'
+},false)
 
